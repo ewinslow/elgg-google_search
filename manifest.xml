@@ -5,7 +5,7 @@
 	<version>1.0</version>
 	<description>Delegates search to Google. Useful if you have mostly public content.</description>
 	<copyright>(C) Evan Winslow 2010</copyright>
-	<website>http://github.com/ewinslow/elgg-google</website>
+	<website>http://github.com/ewinslow/elgg-google_search</website>
 	<requires>
 		<type>elgg_release</type>
 		<version>1.8.0</version>
