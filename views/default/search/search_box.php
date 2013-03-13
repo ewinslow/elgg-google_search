@@ -24,12 +24,9 @@ if (isset($vars['class'])) {
 <script>
 	$('.elgg-search').live('submit', function() {
 		var userQuery = $(this).find('.search-input').first().val();
-		alert(userQuery);
 
 		var q = $(this).find('[name="q"]');
 
 		q.val("site:<?php echo elgg_get_site_url(); ?> " + userQuery);
-	
-		alert(q.val());
 	});
 </script>
